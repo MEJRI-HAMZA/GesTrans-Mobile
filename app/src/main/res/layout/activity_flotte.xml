@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controller.flotte"
+    android:background="#fff6f1">
+
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="78dp"
+        android:text="Zénon"
+        android:fontFamily="@font/allura"
+        android:inputType="text|textMultiLine"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#FF8000"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="0dp"
+        app:srcCompat="@drawable/b1" />
+
+    <TextView
+        android:id="@+id/b1"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="191dp"
+        android:layout_marginEnd="35dp"
+        android:inputType="text|textMultiLine"
+        android:text="Marque VOLVO , 80 places et mise en circulation en fèvrier 2016"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/b1"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-178dp"
+        android:layout_marginTop="43dp"
+        android:text="Aristote"
+        android:fontFamily="@font/allura"
+        android:inputType="text|textMultiLine"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#FF8000"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="85dp"
+        app:srcCompat="@drawable/b2" />
+
+    <TextView
+        android:id="@+id/b2"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/b1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="0dp"
+        android:inputType="text|textMultiLine"
+        android:text="Marque RENAULT , 70 places et mise en circulation en janvier 2015"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView11"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="231dp"
+        android:fontFamily="@font/allura"
+        android:inputType="text|textMultiLine"
+        android:text="Pyrron"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#FF8000"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_alignEnd="@+id/textView11"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-78dp"
+        android:layout_marginBottom="145dp"
+        app:srcCompat="@drawable/b3" />
+
+    <TextView
+        android:id="@+id/b3"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/b1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginBottom="49dp"
+        android:inputType="text|textMultiLine"
+        android:text="Marque IVECO , 80 places et mise en circulation en décembre 2018"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/b2"
+        android:layout_alignTop="@+id/textView15"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="-9dp"
+        android:fontFamily="@font/allura"
+        android:inputType="text|textMultiLine"
+        android:text="Epicure"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#FF8000"/>
+
+    <TextView
+        android:id="@+id/b4"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/b2"
+        android:layout_alignBottom="@+id/b3"
+        android:layout_marginStart="-8dp"
+        android:layout_marginBottom="-2dp"
+        android:inputType="text|textMultiLine"
+        android:text="Marque EVOBUS , 90 places et mise en circulation en MARS 2014"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:layout_alignStart="@+id/textView13"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-42dp"
+        android:layout_marginBottom="144dp"
+        app:srcCompat="@drawable/b4" />
+
+
+</RelativeLayout>

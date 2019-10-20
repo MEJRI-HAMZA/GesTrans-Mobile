@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GesTrans</string>
+    <string name="entreprise">A propos de nous</string>
+    <string name="logout">Déconnexion</string>
+    <string name="flotte">Notre flotte</string>
+    <string name="travels">Mes voyages</string>
+    <string name="home">Accueil</string>
+    <string name="title_activity_display_map">displayMap</string>
+</resources>

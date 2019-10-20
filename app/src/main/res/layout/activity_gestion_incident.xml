@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Controller.gestionIncident"
+    android:background="#f6eaff">
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:fontFamily="@font/emilys_candy"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textColor="#7300ff"
+         />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_recycler_view_incident"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusableInTouchMode="true"
+        android:scrollbars="vertical" />
+
+</LinearLayout>

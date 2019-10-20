@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/homeIcone"
+        android:title="@string/home"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_home"/>
+        />
+
+    <item android:id="@+id/home"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/home"
+        />
+    <item android:id="@+id/entreprise"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/entreprise"
+        />
+    <item android:id="@+id/travels"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/travels"
+        />
+    <item android:id="@+id/travelsIcone"
+        android:title="@string/travels"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_travel"
+        />
+    <item android:id="@+id/logout"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/logout"
+        />
+</menu>
